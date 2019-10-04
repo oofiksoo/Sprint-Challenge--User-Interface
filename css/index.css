@@ -317,3 +317,38 @@ footer nav a {
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
 }
+
+.upperimage {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border-top: 2px dotted black;
+}
+
+.contentmiddle {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 2%;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.contentmiddle .itembox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+    margin: 20px 0px;
+}
+
+.lowercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
