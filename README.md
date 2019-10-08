@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html allows a universal definition of page elements for consumption by browsers and search engines. A universal standard allows items to be identified with accurate specificty, and allows all consumtion to be equivilent.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+block will nest into its parent and stack vertically while inline will fit itself based on content and flow inline of other elements.
+block level can have its dementions set, while an inline element cannot be set using height/width properties.
+
 3. What are the 4 areas of the box model?
-
+A. content 
+ B. padding 
+ C. border 
+ D. margin
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+Cross Axis
 5. Explain why git is valuable to a team of developers.
+Git allows for multiple changes from multiple parties to be tracked and merged to create a single realseable product.
+The tracking of changes provides the ability to revert functionality if desired affect is not met, or any other justification.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
